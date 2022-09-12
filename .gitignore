@@ -1,3 +1,4 @@
 .*
 !.gitignore
 /.quarto/
+_site/
