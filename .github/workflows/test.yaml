@@ -9,5 +9,8 @@ jobs:
       - name: install Quarto
         run: |
           wget $(curl https://latest.fast.ai/pre/quarto-dev/quarto-cli/macos.pkg)
-          sudo dpkg -i quarto*.deb
+          dpkg -i quarto*.deb
+      - name: test preview
+        run: |
+          quarto -V
           quarto preview
