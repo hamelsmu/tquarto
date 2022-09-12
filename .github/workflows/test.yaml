@@ -1,5 +1,5 @@
 name: test
-on: workflow_dispatch
+on: [workflow_dispatch, push]
 
 jobs:
   test:
@@ -9,7 +9,7 @@ jobs:
       - name: install Quarto
         run: |
           wget $(curl https://latest.fast.ai/pre/quarto-dev/quarto-cli/macos.pkg)
-          dpkg -i quarto*.deb
+          sudo installer -allowUntrusted -pkg "macos.mpkg" -target /
       - name: test preview
         run: |
           quarto -V
