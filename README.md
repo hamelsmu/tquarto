@@ -15,4 +15,5 @@ assertion failed [block != nullptr]: BasicBlock requested for unrecognized addre
 ## Info about my system:
 
 - OS: MacOS Monterey 12.5.1, Apple M1 Pro
-- 
+- Quarto Version `1.2.92`
+
