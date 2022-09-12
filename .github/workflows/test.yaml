@@ -9,7 +9,7 @@ jobs:
       - name: install Quarto
         run: |
           wget $(curl https://latest.fast.ai/pre/quarto-dev/quarto-cli/macos.pkg)
-          sudo installer -allowUntrusted -pkg "macos.mpkg" -target /
+          sudo installer -allowUntrusted -pkg "macos.pkg" -target /
       - name: test preview
         run: |
           quarto -V
