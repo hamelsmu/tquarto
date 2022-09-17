@@ -10,10 +10,12 @@ website:
       - test.ipynb
 
 format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+  # html:
+  #   theme: cosmo
+  #   css: styles.css
+  #   toc: true
+  ipynb: 
+    output-ext: output_foo.ipynb
 
 
 
