@@ -16,6 +16,8 @@ assertion failed [block != nullptr]: BasicBlock requested for unrecognized addre
 /usr/local/bin/quarto: line 145:  9849 Trace/BPT trap: 5       "${QUARTO_DENO}" ${QUARTO_ACTION} ${QUARTO_DENO_OPTIONS} ${QUARTO_DENO_EXTRA_OPTIONS} "${QUARTO_IMPORT_ARGMAP}" "${QUARTO_TARGET}" "$@"
 ```
 
+If you don't get an error the first time, you can try this multiple time and eventually get an error.  I've also reproducd this on other machines.
+
 ## Info about my system:
 
 - OS: MacOS Monterey 12.5.1, Apple M1 Pro
